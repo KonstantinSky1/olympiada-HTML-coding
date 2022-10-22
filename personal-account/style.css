@@ -285,6 +285,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .pesonal-account {
   display: flex;
   min-height: 550px;
+  margin: 0 0 10px 0;
 }
 
 .pesonal-account__info {
@@ -397,7 +398,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .pesonal-account__full-info-content {
   width: 100%;
-  padding: 12px 12px 50px 12px;
+  padding: 12px 25px 50px 26px;
 }
 
 .pesonal-account__full-info-content-header {
@@ -503,4 +504,179 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
   font-size: 14px;
   line-height: 22px;
   color: #9C9C9C;
+}
+
+.subscribers-image {
+  width: 60px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.post-news {
+  background-color: #FFF;
+  border-radius: 15px;
+  padding: 15px 24px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.post-news__student-photo {
+  width: 60px;
+  height: 60px;
+  flex: 0 0 60px;
+  margin: 0 20px 0 0;
+}
+
+.post-news__student-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-news__form {
+  width: 100%;
+}
+
+.post-news__inputs-blocks {
+  display: flex;
+  align-items: center;
+}
+
+.post-news__inputs-block {
+  background-color: #F2F9FF;
+  border-radius: 15px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  width: 100%;
+  margin: 0 20px 0 0;
+}
+
+.post-news__input {
+  background-color: transparent;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #181716;
+  width: 100%;
+}
+
+.post-news__submit {
+  background: url('./images/icon-post-news-submit.svg') no-repeat;
+  width: 21px;
+  height: 19px;
+}
+
+.post-news__add-image {
+  background: transparent url('./images/camera-add-image-icon.png') 0 0/23px 23px no-repeat;
+  width: 23px;
+  height: 23px;
+}
+
+.all-news {
+  background-color: #FFF;
+  border-radius: 30px;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.all-news__header {
+  padding: 0 24px 0 24px;
+  border-bottom: 1px solid #DADADA;
+}
+
+.all-news__header-title {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181716;
+  margin: 0 0 20px 0;
+}
+
+.news {
+  padding: 24px;
+}
+
+.news__info {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.news__content {
+
+}
+
+.news__content img {
+  max-width: 100%;
+}
+
+.news__content-image {
+  margin: 0 0 10px 0;
+}
+
+.news__content-image:last-child {
+  margin: 0;
+}
+
+.news__content-text {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #181716;
+}
+
+.news__content-block {
+  margin: 0 0 10px 0;
+}
+
+.news__info__student-photo {
+  width: 60px;
+  height: 60px;
+  flex: 0 0 60px;
+  margin: 0 20px 0 0;
+}
+
+.news__info__student-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.news__info-content {
+
+}
+
+.news__info-content-text {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #181716;
+}
+
+.news__info-content-date {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #9C9C9C;
+}
+
+.news__content-buttons-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.news__content-button-like {
+  background: transparent url('./images/icon-news-like.svg') 0 0/20px 18px no-repeat;
+  width: 20px;
+  height: 18px;
 }
