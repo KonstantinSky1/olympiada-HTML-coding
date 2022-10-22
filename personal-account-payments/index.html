@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="content">
+  <!-- Эту часть нужно поместить внутрь тега <div class="content"> -->
+    <div class="pesonal-account">
+      <div class="pesonal-account__info">
+        <div class="pesonal-account__info-photo-card-block">
+          <div class="pesonal-account__info-photo-card-block-image">
+            <img src="./images/student-photo.png" alt="Фотография">
+          </div>
+          <p class="pesonal-account__info-photo-card-student-name">Дарина Каримова</p>
+          <p class="pesonal-account__info-photo-card-student-info">Школьник</p>
+        </div>
+        <div class="pesonal-account__info-nav-links-block">
+          <div class="dropdown-menu">
+            <p class="dropdown-menu__text">Личный кабинет</p>
+            <span class="dropdown-menu__arrow arrow-nav-links"></span>
+          </div>
+          <ul class="pesonal-account__info-nav-links-list">
+            <li class="pesonal-account__info-nav-links-list-item font-weigth-700"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Общая информация</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Пополнение баланса</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Рейтинги</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Мои олимпиады</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Новостная лента</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Реферальная ссылка</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Мои уроки</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pesonal-account__payments">
+        <div class="pesonal-account__payments-info">
+          <h4 class="pesonal-account__payments-info-title">Пополнение баланса</h4>
+          <div class="pesonal-account__payments-info-user">
+            <div class="pesonal-account__payments-info-user-itemOne">
+              <p class="pesonal-account__payments-info-user-text">Номер счета:</p>
+              <p class="pesonal-account__payments-info-user-text">Имя пользователя:</p>
+              <p class="pesonal-account__payments-info-user-text">Текущий баланс:</p>
+            </div>
+            <div class="pesonal-account__payments-info-user-itemOne">
+              <p class="pesonal-account__payments-info-user-text font-color-dark">#2345678768</p>
+              <p class="pesonal-account__payments-info-user-text font-color-dark">karimova.d@gmail.com</p>
+              <p class="pesonal-account__payments-info-user-text font-color-dark">1200 тенге</p>
+            </div>
+          </div>
+          <p class="pesonal-account__payments-info-text">Стоимость участия в одной олимпиаде составляет:</p>
+          <p class="pesonal-account__payments-info-text">- для школьников 2500 тенге;</p>
+          <p class="pesonal-account__payments-info-text">- для учителей 2500 тенге.</p>
+          <p class="pesonal-account__payments-info-payment-choice">Выберите удобный способ пополнения счета:</p>
+        </div>
+        <div class="pesonal-account__payments-bank">
+          <img src="./images/kaspiqr.png" alt="Картинка">
+          <p class="pesonal-account__payments-bank-payment">Оплата через Kaspi банк</p>
+          <p class="pesonal-account__payments-bank-text">Данный способ позволяет удобно и быстро пополнить баланс счета через приложение Kaspi.kz. Вы можете самостоятельно отыскать в разделе платежи, либо воспользоваться QR кодом, нажав кнопку "Перейти к оплате"</p>
+          <a href="#" class="pesonal-account__payments-bank-link">Перейти к оплате</a>
+        </div>
+        <div class="pesonal-account__payments-bank">
+          <img src="./images/qiwi.png" alt="Картинка">
+          <p class="pesonal-account__payments-bank-payment">Оплата через платежные терминалы QIWI (ОСМП)</p>
+          <p class="pesonal-account__payments-bank-text">После платежа через платежные терминалы деньги мгновенно поступают на счет участника. Комиссия в данном способе оплаты составляет 0 тенге.</p>
+          <p class="pesonal-account__payments-bank-text">При платеже необходимо указать номер счета учаcтника зарегистрированного на текущем сайте</p>
+          <a href="#" class="pesonal-account__payments-bank-link">Перейти к оплате</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
