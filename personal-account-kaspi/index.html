@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="content">
+  <!-- Эту часть нужно поместить внутрь тега <div class="content"> -->
+    <div class="pesonal-account">
+      <div class="pesonal-account__info">
+        <div class="pesonal-account__info-photo-card-block">
+          <div class="pesonal-account__info-photo-card-block-image">
+            <img src="./images/student-photo.png" alt="Фотография">
+          </div>
+          <p class="pesonal-account__info-photo-card-student-name">Дарина Каримова</p>
+          <p class="pesonal-account__info-photo-card-student-info">Школьник</p>
+        </div>
+        <div class="pesonal-account__info-nav-links-block">
+          <div class="dropdown-menu">
+            <p class="dropdown-menu__text">Личный кабинет</p>
+            <span class="dropdown-menu__arrow arrow-nav-links"></span>
+          </div>
+          <ul class="pesonal-account__info-nav-links-list">
+            <li class="pesonal-account__info-nav-links-list-item font-weigth-700"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Общая информация</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Пополнение баланса</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Рейтинги</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Мои олимпиады</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Новостная лента</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Реферальная ссылка</a></li>
+            <li class="pesonal-account__info-nav-links-list-item"><a href="#" class="pesonal-account__info-nav-links-list-item-link">Мои уроки</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pesonal-account__bank-payment">
+        <h4 class="pesonal-account__bank-title">Оплата через Kaspi банк</h4>
+        <div class="pesonal-account__bank-info">
+          <img src="./images/kaspiqr.png" alt="Картинка">
+          <div>
+            <p class="pesonal-account__bank-info-text">Стоимость участия в одной олимпиаде составляет:</p>
+            <p class="pesonal-account__bank-info-text">- для школьников 350 тенге;</p>
+            <p class="pesonal-account__bank-info-text">- для учителей 500 тенге.</p>
+          </div>
+        </div>
+        <p class="pesonal-account__bank-payment-title">Оплата через Kaspi банк</p>
+        <p class="pesonal-account__bank-payment-text">Данный способ позволяет удобно и быстро пополнить баланс счета через приложение Kaspi.kz. Вы можете самостоятельно отыскать в разделе платежи, либо воспользоваться QR кодом, нажав кнопку "Перейти к оплате"</p>
+        <form name="pesonal-account-bank-payment-form">
+            <p class="payment-label-text">Укажите сумму пополнения, тенге:</p>
+            <div class="pesonal-account__bank-payment-input-block">
+              <input type="text" name="payment" class="payment-input">
+              <button class="pesonal-account__bank-payment-submit" type="submit">Пополнить</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
