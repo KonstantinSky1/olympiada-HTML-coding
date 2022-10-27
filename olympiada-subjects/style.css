@@ -24,13 +24,13 @@ body {
   width: 824px;
 }
 
-.olympiad-register {
+.olympiad-subjects {
   background-color: #FFFFFF;
   border-radius: 20px;
   padding: 25px;
 }
 
-.olympiad-register__bread-crumbs {
+.olympiad-subjects__bread-crumbs {
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -38,12 +38,12 @@ body {
   color: #9C9C9C;
 }
 
-.olympiad-register__navigation {
+.olympiad-subjects__navigation {
   display: flex;
   margin: 25px 0 40px 0;
 }
 
-.olympiad-register__navigation-title {
+.olympiad-subjects__navigation-title {
   font-family: 'Montserrat', 'Arial', sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -52,12 +52,12 @@ body {
   margin: 0 20px 0 0;
 }
 
-.olympiad-register__navigation-links {
+.olympiad-subjects__navigation-links {
   display: flex;
   gap: 10px;
 }
 
-.olympiad-register__navigation-link {
+.olympiad-subjects__navigation-link {
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -65,19 +65,20 @@ body {
   color: #A6A6A6;
 }
 
-.olympiad-register__navigation-link_active {
+.olympiad-subjects__navigation-link_active {
   color: #181716;
   border-bottom: 3px solid #539BC3;
 }
 
-.olympiad-register__card-list {
+.olympiad-subjects__card-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, 250px);
   column-gap: 10px;
   row-gap: 20px;
+  margin: 0 0 40px 0;
 }
 
-.olympiad-register__card {
+.olympiad-subjects__card {
   background: #FAFAFA;
   border: 1px solid #4A69FF;
   border-radius: 10px;
@@ -86,7 +87,7 @@ body {
   padding: 25px 15px;
 }
 
-.olympiad-register__card-title {
+.olympiad-subjects__card-title {
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -95,7 +96,7 @@ body {
   margin: 0 0 20px 0;
 }
 
-.olympiad-register__card-text {
+.olympiad-subjects__card-text {
   font-family: 'Montserrat', 'Arial', sans-serif;
   font-size: 14px;
   line-height: 17px;
