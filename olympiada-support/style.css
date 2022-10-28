@@ -24,74 +24,78 @@ body {
   width: 824px;
 }
 
-.promotions {
-  margin: 0 0 70px 0;
-}
-
-.promotion {
-  background-color: #FFFFFF;
+.support {
+  background-color: #FFF;
   border-radius: 20px;
   padding: 20px 50px;
-  margin: 0 0 20px 0;
 }
 
-.promotion:last-child {
-  margin: 0;
+.support__bread-crumbs {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9C9C9C;
 }
 
-.promotion__content {
-  display: flex;
-}
-
-.promotion__imageBlock {
-  flex: 0 0 250px;
-  width: 250px;
-  height: 250px;
-  margin: 0 20px 0 0;
-}
-
-.promotion__imageBlock img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.promotion__text-title {
+.support__title {
   font-family: 'Montserrat', 'Arial', sans-serif;
   font-weight: 600;
   font-size: 18px;
-  line-height: 30px;
-  color: #181716;
-  margin: 0 0 25px 0;
+  line-height: 24px;
+  color: #124263;
+  margin: 0 0 24px 0;
 }
 
-.promotion__text-content {
+.support__textBlock {
   margin: 0 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.promotion__text {
+.support__text {
   font-family: 'Lato', 'Arial', sans-serif;
   font-size: 17px;
   line-height: 20px;
   color: #181716;
-  max-width: 550px;
-  margin: 0 0 20px 0;
 }
 
-.promotion__text:last-of-type {
-  margin: 0;
+.support__form {
+  margin: 0 0 60px 0;
 }
 
-.promotion__link {
-  font-family: 'Lato', 'Arial', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 40px;
-  color: #FFFFFF;
+.inputs-block {
+  display: flex;
+}
+
+.support__input-question {
   display: block;
-  width: 284px;
+  width: 100%;
   height: 40px;
+  border: 1px solid #07406F;
+  box-shadow: 0px 0px 0px 4px rgba(181, 200, 214, 0.4);
+  border-radius: 4px;
+  margin: 0 20px 0 0;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161613;
+  padding: 0 24px;
+}
+
+.support__button-submit {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
   background-color: #4A69FF;
-  border-radius: 10px;
-  text-align: center;
+  box-shadow: 0px 0px 0px 4px rgba(181, 200, 214, 0.4);
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
 }
