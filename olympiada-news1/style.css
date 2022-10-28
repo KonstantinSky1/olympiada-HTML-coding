@@ -1,0 +1,111 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+/* reset, body - не переносить */
+body {
+  background-color: #9C9C9C;
+}
+/* content - тестовый класс (не переносить) */
+.content {
+  width: 824px;
+}
+
+.all-news {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px 25px;
+}
+
+.all-news__title {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #124263;
+  margin: 0 0 27px 0;
+}
+
+.all-news__list {
+  margin: 0 0 100px 0;
+}
+
+.all-news__list-item {
+  margin: 0 0 40px 0;
+  padding: 0 0 0 15px;
+  position: relative;
+}
+
+.all-news__list-item::before {
+  content: '';
+  position: absolute;
+  top: .5em;
+  left: 0;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.all-news__list-itemBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-news__list-item:last-child {
+  margin: 0;
+}
+
+.all-news__list-item-textBlock {
+  margin: 0 40px 0 0;
+}
+
+.all-news__list-item-imageBlock {
+  width: 120px;
+  height: 100px;
+  flex: 0 0 120px;
+}
+
+.all-news__list-item-imageBlock img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.all-news__list-item-title {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #304659;
+  margin: 0 0 13px 0;
+}
+
+.all-news__list-item-text {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin: 0 0 25px;
+}
+
+.all-news__list-item-date {
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9C9C9C;
+}
