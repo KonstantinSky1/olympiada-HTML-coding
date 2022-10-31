@@ -1,0 +1,68 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+/* reset, body - не переносить */
+body {
+  background-color: #9C9C9C;
+}
+/* content - тестовый класс (не переносить) */
+.content {
+  width: 824px;
+}
+
+.main {
+  border-radius: 10px;
+  min-height: 456px;
+  background: url('./images/putevka.png') 0 0/cover no-repeat;
+  position: relative;
+}
+
+.main__buttons-block {
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  display: flex;
+  gap: 30px;
+}
+
+.button-participate {
+  display: block;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+  background-color: #4A69FF;
+  box-shadow: 0px 0px 0px 4px rgba(181, 200, 214, 0.4);
+  border-radius: 4px;
+  width: 132px;
+  height: 40px;
+  text-align: center;
+}
+
+.button-details {
+  display: block;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  color: #161613;
+  border: 1px solid #9A9A98;
+  box-shadow: 0px 0px 0px 4px rgba(181, 200, 214, 0.4);
+  border-radius: 4px;
+  width: 132px;
+  height: 40px;
+  text-align: center;
+}
